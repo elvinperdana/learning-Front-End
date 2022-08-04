@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body class="backgroundImage">
+        <header>
+            <div id="nav-bar" class="nav-bar">
+                <img id="logo" class="logo" src="assets/image/logo.jpg">
+                <h2 id="logo-title">Belajar Ngoding</h2> 
+                <div id="hamburger" class="hamburger" style="display: none;" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div id="navbar" class="navbar">
+                    <a href="#" class="btn-navbar" id="navbar1" onclick="autoClose()">Home</a>
+                    <div id="dropdown" class="dropdown">
+                        <div id="dropbtn" class="dropbtn">Article</div>
+                        <div class="dropdown-content">
+                          <a href="#" onclick="autoClose()">Pengenalan Programming</a>
+                          <a href="#prog-lang" onclick="autoClose()">Bahasa Pemrograman</a>
+                        </div>
+                    </div>
+                    <a href="#source-link" class="btn-navbar" id="navbar2" onclick="autoClose()">Source</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="flex-container-row" style="margin-bottom: 20px;">
+                <div class="flex-container-left transBox">
+                    <article>
+                        <h2>Mengenal Apa Sih Programming Itu?</h2>
+                        <img class="image" src="assets/image/Internship-rendi-programming.png">
+                        <p>
+                            Kamu masih bertanya-tanya kan, apa itu programming? Simpel saja, 
+                            programming adalah sebuah proses untuk membuat program di komputer. 
+                            Program yang dibuat bisa berupa software, website, aplikasi android, dsb.
+                        </p>
+                        <p>
+                            Lalu, mulai dari manakah agar kamu bisa memulai programming? 
+                            Untuk membuat program tentunya ada beberapa tahapan. Mulai dari tulis menulis,
+                            menguji, merevisi, dan mengevaluasi, serta mengujinya lagi sampai program 
+                            tersebut benar-benar jadi dan sesuai dengan apa yang diinginkan.
+                        </p>
+                        <p>
+                            Jadi, programming adalah suatu proses atau kegiatan menulis dan menguji 
+                            (pemrograman) agar program dapat dibuat, dan hasilnya sesuai apa yang 
+                            diinginkan. 
+                        </p>
+                        <p>
+                            Bagaimana, sudah mulai paham kan apa itu programming?
+                        </p>
+                        <p>
+                            Lalu, muncul pertanyaan lagi mengenai programming. Apa sih yang ditulis
+                            dalam proses tersebut? Tentunya, bukan tulisan biasa. Tidak seperti 
+                            saat menulis buku novel ataupun puisi karena ini berhubungan dengan 
+                            program komputer. Sehingga bahasa tulisan pun harus dapat dimengerti 
+                            oleh komputer, yakni berupa kode-kode program yang sudah ada sebelumnya.
+                        </p>
+                        <p>
+                            Itulah mengapa seorang yang ahli programming mesti menguasai bahasa pemrograman.
+                        </p>
+                        <p>
+                            Saat ini banyak bermunculan bahasa pemrograman yang baru. Hal ini terjadi 
+                            karena seseorang berupaya menyederhanakan dan memudahkan bahasa pemrograman 
+                            yang sudah ada. Tujuannya untuk pembuatan program jauh lebih cepat, efektif, 
+                            dan sesederhana mungkin. 
+                        </p>
+                    </article>
+                    <article>
+                    <h3 id="prog-lang">Bahasa Pemrograman untuk Programming</h3>
+                        <img class="image" src="assets/image/Internship-rendi-programming-bahasa.png">
+                        <p>
+                            Kamu akan mengenal bahasa pemrograman yang biasa digunakan untuk programming. 
+                            Perkembangan teknologi yang begitu cepat tentu membawa dampak bagi bahasa 
+                            pemrograman. Salah satunya adalah mulai bermunculan bahasa pemrograman yang 
+                            baru. Berikut beberapa macam bahasa pemrograman yang cukup popular akhir-akhir 
+                            ini.
+                        </p>
+                        <div>
+                            <h4>Java</h4>
+                            <p>
+                                Java adalah bahasa pemrograman tingkat tinggi yang berorientasi objek (OOP) 
+                                dan tersusun dari beberapa kelas. Singkat cerita, kamu masih ingat logo Java 
+                                kan? Dilambangkan dengan secangkir kopi panas. Iya itu benar, Java didirikan 
+                                oleh James Gosling. Ia seorang penikmat kopi.
+                            </p>
+                            <p>
+                                Terlepas dari itu, Java menjadi bahasa pemrograman andalan oleh para 
+                                programmer atau pembuat aplikasi. Mengapa? Sebab, Java dapat berjalan hampir 
+                                di semua sistem operasi. Contohnya adalah aplikasi Android yang dibuat 
+                                menggunakan bahasa Java.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Python</h4>
+                            <p>
+                                Bahasa pemrograman yang satu ini sedang banyak digandrungi oleh para pembuat 
+                                aplikasi. Bagi kamu yang sudah tahu programming, maka akan tahu juga alasannya. 
+                                Yap, Python merupakan bahasa tingkat tinggi. Saat ini juga banyak perusahaan
+                                    besar yang sudah mengimplementasikannya untuk mendukung perkembangan IT.
+                            </p>
+                            <p>
+                                Jadi, kamu-kamu yang ingin memulai programming, tidak ada salahnya untuk belajar 
+                                bahasa yang satu ini ya. Selain itu, bahasa pemrograman yang satu ini mulai 
+                                populer karena banyak digunakan untuk kecerdasan buatan atau AI 
+                                (Artificial Intelligence).
+                            </p>
+                        </div>
+                        <div>
+                            <h4>C++</h4>
+                            <p>
+                                Kamu sudah tahu bahasa yang satu ini? Jika sebelumnya mengenal programming, 
+                                maka kamu akan tahu juga betapa melejitnya bahasa pemrograman ini. C++ 
+                                adalah bahasa pemrograman yang memiliki sifat berorientasi objek, sama 
+                                halnya dengan Java. Bahasa pemrograman yang satu ini menjadi bahasa tercepat 
+                                ketika dijalankan oleh mesin.
+                            </p>
+                            <p>
+                                C++ merupakan bentuk perkembangan dari bahasa C. Bahasa ini sangat banyak 
+                                digunakan oleh pembuat aplikasi. Bahkan Google menggunakan bahasa C++ juga 
+                                dalam mengembangkan produknya. Sebab, C++ adalah bahasa pemrograman yang 
+                                ideal dan dapat digunakan untuk menangani beberapa server dalam satu waktu.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>JavaScript</h4>
+                            <p>
+                                JavaScript merupakan bahasa pemrograman scripting yang digunakan untuk 
+                                membuat situs web agar lebih interaktif. Bahasa yang satu ini paling 
+                                banyak digunakan oleh para developer web. Bahkan, sekelas Google pun 
+                                memakai Javascript. Mengingat Google mempunyai beberapa produk web, 
+                                seperti Google Ads yang  didukung oleh JavaScript.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>PHP</h4>
+                            <p>
+                                Untuk kamu yang sudah memulai belajar programming sudah tidak asing 
+                                jika mendengar kata PHP. PHP di sini maksudnya bahasa pemrograman 
+                                loh hehe. PHP digunakan untuk membangun sebuah website. Biasanya PHP 
+                                dikolaborasikan dengan HTML, mengapa? Sebab, PHP digunakan untuk logisnya, 
+                                sedangkan HTML digunakan sebagai tampilan kerangka web tersebut.
+                            </p>
+                            <p>
+                                Bahasa Pemrograman PHP cocok bagi pemula. Di Indonesia banyak sekali 
+                                forum untuk belajar bahasa pemrograman PHP. Jika ingin mulai belajar 
+                                PHP, yuk klik dan simak artikel berikut ini Apa Itu PHP? Beserta Contoh 
+                                untuk Pemula.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex-container-right">
+                    <div class="card-form card">
+                        <p style="font-weight: bold; font-size:30px;">Form Absensi</p>
+                        <form action="/action_page.php">
+                            <label for="nilai">Kepuasan</label><br>
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                            </div><br>
+                            <label for="name">Nama:</label><br>
+                            <input type="text" id="absenName" name="name"><br><br>
+                            <label for="job">Pekerjaan saat ini:</label><br>
+                            <input type="text" id="absenPekerjaan" name="pekerjaan"><br><br>
+                            <label for="instansi">Instansi:</label><br>
+                            <input type="text" id="absenInstansi" name="instansi"><br><br>
+                            <button id="submitBtn" type="button">Submit</button>
+                          </form>
+                    </div>
+                    <div id="tabel-absen1" class="absen card card-absen history">
+                        <p style="font-weight: bold; font-size:20px; text-align: center;">Absensi</p>
+                        <table id="tabel-absen2">
+                            <thead>
+                                <tr>
+                                    <th>Nama</th>
+                                    <th>Pekerjaan</th>
+                                    <th>Instansi</th>
+                                    <th>Kepuasan</th>
+                                </tr>
+                            </thead>
+                            <tbody id="data-Absen"></tbody>
+                        </table>
+                    </div>
+                    <div id="aboutMe" class="card-profile card">
+                        <aside>
+                            <p style="font-weight: bold; font-size:35px">About Me</p>
+                            <img id="gambar-profile" src="assets/image/profile.JPG">
+                            <p id="myName" style=" font-weight: bold;">Elvin Perdana</p>
+                            <p class="title-card">Programming</p>
+                            <p>Sumatera Institute of Technology</p>
+                        </aside>
+                    </div>
+                </div>
+                </div>
+            </main>
+            </div>
+
+
+        <footer>
+            <div class="flex-container-row">
+                <div class="footer-container-left lefty">
+                    <p class="footerTitle">@Dicoding Class Project</p>
+                    <p id="source-link" class="footerTitle"><a class="footerTitle" href="https://www.dicoding.com/blog/apa-itu-programming-berikut-penjelasan-lengkapnya/">Article Source</a></p>
+                </div>
+                <div class="footer-container-right righty">
+                    <button class="btn-top">
+                        <a href="#">
+                            Back to Top
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="text-align: center;">COPYRIGHT © 2022 Elvin Perdana. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <script src="assets/effect.js"></script>
+        <script src="assets/absen.js"></script>
+    </body>
+
+</html>
